@@ -16,11 +16,17 @@ export default function Header() {
           <Link href="/" className="text-gray-600 hover:text-primary transition">
             Home
           </Link>
-          <Link href="#gallery" className="text-gray-600 hover:text-primary transition">
+          <Link href="/gallery" className="text-gray-600 hover:text-primary transition">
             Gallery
           </Link>
-          <Link href="#about" className="text-gray-600 hover:text-primary transition">
+          <Link href="/tools" className="text-gray-600 hover:text-primary transition">
+            Tools
+          </Link>
+          <Link href="/about" className="text-gray-600 hover:text-primary transition">
             About
+          </Link>
+          <Link href="/contact" className="text-gray-600 hover:text-primary transition">
+            Contact
           </Link>
         </div>
       </nav>
